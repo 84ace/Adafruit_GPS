@@ -51,6 +51,9 @@
 #define PMTK_SET_BAUD_57600 "$PMTK251,57600*2C"   ///<  57600 bps
 #define PMTK_SET_BAUD_9600 "$PMTK251,9600*17"     ///<   9600 bps
 
+#define PMTK_ALWAYS_LOCATE_ON "$PMTK225,8*23"     ///< Awalys locate mode set to on
+#define PMTK_ALWAYS_LOCATE_OFF "$PMTK225,0*2B"    ///< Awalys locate mode set to off
+
 #define PMTK_SET_NMEA_OUTPUT_GLLONLY                                           \
   "$PMTK314,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0*29" ///< turn on only the
                                                       ///< GPGLL sentence
